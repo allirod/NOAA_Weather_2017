@@ -33,4 +33,3 @@ controller.getStationData = async (req, res, next) => {
 };
 
 module.exports = controller;
-

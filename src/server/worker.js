@@ -26,4 +26,3 @@ const checkCSV = ({ id, filePath }) => {
 };
 
 module.exports = checkCSV;
-
