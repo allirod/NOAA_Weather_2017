@@ -1,0 +1,55 @@
+body {
+    font-family: Poppins;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  #station-id-input {
+    border: 2px solid rgba(109, 109, 109, 0.5);
+    border-radius: 16px;
+    height: 24px;
+    padding: 0px 10px;
+  }
+  
+  #submit-btn {
+    background-color: #4353ff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 16px;
+    margin-bottom: 15px;
+  }
+  
+  #submit-btn:disabled {
+    background-color: #4353ff99;
+  }
+  
+  .table-container {
+    height: 100%;
+    max-height: 60vh;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid;
+    text-align: center;
+  }
+  
+  th,
+  td {
+    padding: 0px 4px;
+  }
+  
+  
